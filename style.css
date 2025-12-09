@@ -12,16 +12,15 @@ body{
     justify-content: center;
 }
 .container{
-    margin: 200px 0 0 0;
+    margin: 150px 0 0 0;
     padding: 50px;
     border-radius: 8px;
     transition: 1s;
 
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(2px);
 }
 .container:hover{
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 input:hover{
     transform: scale(1.1);
@@ -93,8 +92,9 @@ a{
 .sign{
     background-color: #110d6e;
     padding: 10px 100px;
-    border-radius: 8px;
+    border-radius: 8pxgit add .;
     transition: 1s;
+    text-align: center;
 }
 .sign:hover{
     background-color: #0c7228;
